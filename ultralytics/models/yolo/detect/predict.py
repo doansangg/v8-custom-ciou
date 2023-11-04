@@ -11,10 +11,10 @@ class DetectionPredictor(BasePredictor):
 
     Example:
         ```python
-        from ultralytics.utils import assets
+        from ultralytics.utils import assets1
         from ultralytics.models.yolo.detect import DetectionPredictor
 
-        args = dict(model='yolov8n.pt', source=assets)
+        args = dict(model='yolov8n.pt', source=assets1)
         predictor = DetectionPredictor(overrides=args)
         predictor.predict_cli()
         ```

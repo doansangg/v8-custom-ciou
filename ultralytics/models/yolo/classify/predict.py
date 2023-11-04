@@ -16,10 +16,10 @@ class ClassificationPredictor(BasePredictor):
 
     Example:
         ```python
-        from ultralytics.utils import assets
+        from ultralytics.utils import assets1
         from ultralytics.models.yolo.classify import ClassificationPredictor
 
-        args = dict(model='yolov8n-cls.pt', source=assets)
+        args = dict(model='yolov8n-cls.pt', source=assets1)
         predictor = ClassificationPredictor(overrides=args)
         predictor.predict_cli()
         ```
